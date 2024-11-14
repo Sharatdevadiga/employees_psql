@@ -25,7 +25,7 @@ app.use("*", routeNotDefined);
 app.use(globalErrorHandler);
 
 // starting the server
-const port = process.env.port;
+const port = process.env.port || 3000;
 app.listen(port, () => {
   console.log("✅ Server started successfully");
 });
