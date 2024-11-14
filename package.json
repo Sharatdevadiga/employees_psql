@@ -1,0 +1,19 @@
+{
+  "name": "employees",
+  "version": "1.0.0",
+  "description": "\"Backend for performing the CRUD operations on the employees database\"",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js",
+    "build": "echo 'No build steps needed'"
+  },
+  "author": "Sharath Devadiga",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
+  }
+}
